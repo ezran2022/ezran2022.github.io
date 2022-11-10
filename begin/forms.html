@@ -8,8 +8,8 @@
 <body>
 	<div class="wrapper">
 		<section>
-			<h1>Alien Abduction Order Form</h1>
-			<p>Fill out the form below to place an order for an alien abduction by one of our fine UFOs.</p>
+			<h1>IT Solution Provider Order Form</h1>
+			<p>Fill out the form below to place an order for an IT Solution service.</p>
 		  <form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES" method="POST">
 			<input type="hidden" name="send_to" value="ntwariezraa@gmail.com">
 			<fieldset>	
@@ -22,34 +22,34 @@
 				<input type="email" id="email" name="email" placeholder="Enter your Email Address">
 		    </fieldset>
 			<fieldset>
-				<legend>About your abduction </legend>
+				<legend>About your Type Of Service you Need </legend>
 				<label for="date">Requested  date</label>
 				<input type="date" id="date" name="date">
-				<label for="qty">How many people would you like abducted?</label>
+				<label for="qty">How many people would you like hire for your service to make it done?</label>
 				<input type="number" id="qty" name="qty" min="1" max="10">
-				<p>What type of UFO do you prefer?</p>
+				<p>What type of service you need?</p>
 				<!-- we select this by default with checked -->
 				<label>
 					<input type="radio" name="ufotype" value="classic" checked>	
-					Classic oval UFO
+					Frontend
 				</label>
 				<label>
-					<input type="radio" name="ufotype" value="starwars">	Star Wars-style Imperial cruiser
+					<input type="radio" name="ufotype" value="starwars">	Backend
 				</label>
 				<label>
-					<input type="radio" name="ufotype" value="battlestar">	Battlestar Galactica-style Viper
+					<input type="radio" name="ufotype" value="battlestar">	System Analysis
 				</label>
 				<label>
-					<input type="radio" name="ufotype" value="borg">	Borg-style cube
+					<input type="radio" name="ufotype" value="borg">	Other IT Support
 				</label>	 
-				<label for="abtype">What type of abduction experience do you want?</label>
+				<label for="abtype">In Which time dou you need your work to be done?</label>
 					<select id="abtype" name="abtype">
 						<!-- we select this by default with selected -->
 						<option selected>Select one...</option>
-						<option value="tour">Tour of the solar system</option>
-						<option value="dinner">Alien dinner and discussion</option>
-						<option value="dance">Alien dance lessons</option>
-						<option value="whale">Whale watching</option>
+						<option value="tour">In One mounth</option>
+						<option value="dinner">In Three mounths </option>
+						<option value="dance">In six mounths</option>
+						<option value="whale">In One year</option>
 					</select>
 				<label for="comments">Special requests:</label>
 				<textarea name="comments" id="comments" placeholder="Add comments please to help us improve..."></textarea>
